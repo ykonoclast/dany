@@ -1,7 +1,7 @@
 import unittest
-import sys
 
-sys.path.insert(0, "/home/ykonoclast/sources/code/GeanyProjects/dany/scripts")
+import sys, os
+sys.path.append(os.path.join(os.path.dirname(sys.path[0]),'scripts'))
 import analex
 
 class AnalexTest(unittest.TestCase):
