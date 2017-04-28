@@ -28,8 +28,8 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
-FILE_NAME_0=160;None;0;EUTF-8;1;1;0;%2Fhome%2Fykonoclast%2Fsources%2Fcode%2FGeanyProjects%2Fdany%2Ftests%2Fordersample;0;4
+current_page=5
+FILE_NAME_0=136;None;0;EUTF-8;1;1;0;%2Fhome%2Fykonoclast%2Fsources%2Fcode%2FGeanyProjects%2Fdany%2Ftests%2Fordersample;0;4
 FILE_NAME_1=1022;Python;0;EUTF-8;1;1;0;%2Fhome%2Fykonoclast%2Fsources%2Fcode%2FGeanyProjects%2Fdany%2Fscripts%2Fdany.py;0;4
 FILE_NAME_2=446;Python;0;EUTF-8;1;1;0;%2Fhome%2Fykonoclast%2Fsources%2Fcode%2FGeanyProjects%2Fdany%2Fscripts%2Fanalex.py;0;4
 FILE_NAME_3=2979;Python;0;EUTF-8;1;1;0;%2Fhome%2Fykonoclast%2Fsources%2Fcode%2FGeanyProjects%2Fdany%2Ftests%2Ftest_analex.py;0;4
@@ -40,9 +40,6 @@ FILE_NAME_5=83;YAML;0;EUTF-8;1;1;0;%2Fhome%2Fykonoclast%2Fsources%2Fcode%2FGeany
 last_dir=/home/ykonoclast/sources/code/GeanyProjects/dany/scripts
 
 [build-menu]
-NF_03_LB=Integ Test
-NF_03_CM=python3 dany.py ../tests/ordersample
-NF_03_WD=/home/ykonoclast/sources/code/GeanyProjects/dany/scripts/
 EX_00_LB=_Execute
 EX_00_CM=python3 dany.py
 EX_00_WD=/home/ykonoclast/sources/code/GeanyProjects/dany/scripts/
@@ -59,6 +56,6 @@ NF_00_WD=/home/ykonoclast/sources/code/GeanyProjects/dany/tests
 NF_01_LB=Debug
 NF_01_CM=pdp dany.py
 NF_01_WD=/home/ykonoclast/sources/code/GeanyProjects/dany/scripts/
-NF_02_LB=Push
-NF_02_CM=git push origin master
-NF_02_WD=/home/ykonoclast/sources/code/GeanyProjects/dany
+NF_02_LB=Integ Test
+NF_02_CM=python3 dany.py ../tests/ordersample
+NF_02_WD=/home/ykonoclast/sources/code/GeanyProjects/dany/scripts/
