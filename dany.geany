@@ -1,0 +1,65 @@
+[editor]
+line_wrapping=false
+line_break_column=72
+auto_continue_multiline=true
+
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=dany
+base_path=/home/ykonoclast/sources/code/GeanyProjects/dany/
+description=
+file_patterns=*.py;
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=2
+FILE_NAME_0=0;None;0;EUTF-8;1;1;0;%2Fhome%2Fykonoclast%2Fsources%2Fcode%2FGeanyProjects%2Fdany%2Ftests%2Foldsample;0;4
+FILE_NAME_1=94;None;0;EUTF-8;1;1;0;%2Fhome%2Fykonoclast%2Fsources%2Fcode%2FGeanyProjects%2Fdany%2Ftests%2Fordersample;0;4
+FILE_NAME_2=267;Python;0;EUTF-8;1;1;0;%2Fhome%2Fykonoclast%2Fsources%2Fcode%2FGeanyProjects%2Fdany%2Fscripts%2Fdany.py;0;4
+FILE_NAME_3=647;Python;0;EUTF-8;1;1;0;%2Fhome%2Fykonoclast%2Fsources%2Fcode%2FGeanyProjects%2Fdany%2Fscripts%2Fanalex.py;0;4
+FILE_NAME_4=0;Python;0;EUTF-8;1;1;0;%2Fhome%2Fykonoclast%2Fsources%2Fcode%2FGeanyProjects%2Fdany%2Ftests%2Ftest_analex.py;0;4
+FILE_NAME_5=180;Python;0;EUTF-8;1;1;0;%2Fhome%2Fykonoclast%2Fsources%2Fcode%2FGeanyProjects%2Fdany%2Ftests%2Ftest_integ.py;0;4
+FILE_NAME_6=6087;JSON;0;EUTF-8;1;1;0;%2Fhome%2Fykonoclast%2Fsources%2Fcode%2FGeanyProjects%2Fdany%2Fressources%2Fprovinces.json;0;4
+
+[VTE]
+last_dir=/home/ykonoclast/sources/code/GeanyProjects/dany/scripts
+
+[build-menu]
+NF_03_LB=Integ Test
+NF_03_CM=python3 dany.py ../tests/ordersample
+NF_03_WD=/home/ykonoclast/sources/code/GeanyProjects/dany/scripts/
+EX_00_LB=_Execute
+EX_00_CM=python3 dany.py
+EX_00_WD=/home/ykonoclast/sources/code/GeanyProjects/dany/scripts/
+PythonFT_00_LB=
+PythonFT_00_CM=
+PythonFT_00_WD=
+PythonFT_02_LB=_Lint
+PythonFT_02_CM=pep8 --max-line-length=80 "%f"
+PythonFT_02_WD=
+filetypes=Python;
+NF_00_LB=Test
+NF_00_CM=python3 -m unittest discover
+NF_00_WD=/home/ykonoclast/sources/code/GeanyProjects/dany/tests
+NF_01_LB=Debug
+NF_01_CM=pdp dany.py
+NF_01_WD=/home/ykonoclast/sources/code/GeanyProjects/dany/scripts/
+NF_02_LB=Push
+NF_02_CM=git push origin master
+NF_02_WD=/home/ykonoclast/sources/code/GeanyProjects/dany
