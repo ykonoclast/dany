@@ -12,7 +12,7 @@ def scan_prov(p_scanner,p_lexeme):
 	if p_lexeme in listprov:#si la province fait bien partie du vocabulaire
 		return Token(categorie='PROVINCE', valeur=p_lexeme)
 	else:
-		raise ValueError("refusé, province inconnue")
+		raise ValueError("refusé, {}: province inconnue".format(p_lexeme))
 	
 def scan_order(p_scanner,p_lexeme):
 	return Token(categorie='ORDRE', valeur=p_lexeme.strip())
